@@ -20,8 +20,10 @@ test('divide 10 / 2 to equal 5', () => {
   expect(calculator.divide(10, 2)).toBe(5);
 });
 
-test('divide 60 / 3 to equal 20', () => {
-  expect(calculator.divide(5, 0)).toBe(Infinity);
+test('Divide por  0 que me retorne null', () => {
+
+  expect(calculator.divide(10, 0)).toBeNull();
+
 });
 
 
